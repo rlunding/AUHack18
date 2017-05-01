@@ -31,6 +31,22 @@ hr {
     font-size: 3vh;
 }
 
+input.mce_inline_error {
+    border-color: #D65B12 !important;
+}
+
+div.mce_inline_error {
+    background-color: #D65B12 !important;
+}
+
+#mce-success-response, #mce-error-response {
+    background-color: #D65B12;
+}
+
+#mce-success-response a, #mce-error-response a {
+    color: #fff;
+    text-decoration: underline;
+}
 
 /*
  -------------- Teaser SECTION --------------
