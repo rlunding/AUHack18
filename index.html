@@ -56,7 +56,7 @@
 </head>
 <body>
 
-<nav class="navbar navbar-toggleable-sm navbar-light bg-faded fixed-top ">
+<nav class="navbar navbar-toggleable-sm navbar-light bg-faded fixed-top" role="navigation" id="nav-wrap">
     <div class="container">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -67,61 +67,323 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="smoothscroll nav-link" href="#">AUHack</a>
+                    <a class="smoothscroll nav-link" href="#logo-section">AUHack</a>
                 </li>
                 <li class="nav-item">
-                    <a class="smoothscroll nav-link" href="#">FAQ</a>
+                    <a class="smoothscroll nav-link" href="#faq-section">FAQ</a>
                 </li>
                 <li class="nav-item">
-                    <a class="smoothscroll nav-link" href="#">Schedule</a>
+                    <a class="smoothscroll nav-link" href="#schedule-section">Schedule</a>
                 </li>
                 <li class="nav-item">
-                    <a class="smoothscroll nav-link" href="#">Sponsors</a>
+                    <a class="smoothscroll nav-link" href="#sponsors-section">Sponsors</a>
                 </li>
             </ul>
         </div>
     </div>
-
-
-
-<!--
-    <div class="navbar-header">
-            <button type="button" class="navbar-toggle"
-                    data-toggle="collapse" data-target="#navbar-collapse">
-                <span class = "sr-only">Toggle navigation</span>
-                <span class = "icon-bar"></span>
-                <span class = "icon-bar"></span>
-                <span class = "icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html"><img class="hidden-xs" src="img/AUHack_logo.png" alt="AUHack logo"><span class="visible-xs">AUHack 2017</span> </a>
-        </div>
-
-        <div class = "collapse navbar-collapse" id="navbar-collapse">
-            <ul class = "nav navbar-nav">
-                <li class="active"><a class="smoothscroll" href="#logo-section">AUHack</a></li>
-                <li><a class="smoothscroll" href="#faq-section">FAQ</a></li>
-                <li><a class="smoothscroll" href="#schedule-section">Schedule</a></li>
-                <li><a class="smoothscroll" href="#sponsors-section">Sponsors</a></li>
-            </ul>
-        </div>
-        -->
 </nav>
-
 
 <!-- HEADER -->
 <header id="logo-section">
-    <div class="logo-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="logo-section-top-margin"></div>
-                    <h1>AUHack 2018</h1>
-                    <p>April 6th - 8th</p>
-                </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="logo-section-top-margin"></div>
+                <h1>AUHack 2018</h1>
+                <p>April 6th - 8th</p>
             </div>
         </div>
     </div>
 </header>
+
+<!-- Teaser Section -->
+<section class="triangle" id="teaser-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 style="text-align: right">What is AUHack?</h2>
+                <hr>
+                <p>AUHack is Aarhus University’s largest hackathon. Over a 36-hour period from March 31st to April 2nd, students interested in IT will meet, form groups and work intensively to create awesome prototypes and concepts. Whether you like to concept develop, design or code, if you’re into IT – this is for you.</p>
+                <p>Ideate, build, play, hack, share, learn and have fun! The goal for the weekend is to come up with new ideas, play with technology and make cool stuff. It is not about creating finished products, but an opportunity to share your ideas with different people, build inspiring hacks, learn from our mentors and just have fun.</p>
+                <p>Our goal with the hackathon is to bring creative minds and different skill sets together. We want to see you form new ideas and to see what having fun and playing with technology results in through your presentations and demos at the end of the hackathon. So if you feel up for the challenge and are interested in IT, bring your skill set to the event and put it in play working on something cool.</p>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-4 text-center">
+                <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x" style="color: #D65B12"></i>
+                    <i class="fa fa-cutlery fa-stack-1x" style="color: #ffffff"></i>
+                </span>
+                <h4>Free food</h4>
+            </div>
+            <div class="col-4 text-center">
+                <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x" style="color: #D65B12"></i>
+                    <i class="fa fa-keyboard-o fa-stack-1x" style="color: #ffffff"></i>
+                </span>
+                <h4>36 hours of hacking</h4>
+            </div>
+            <div class="col-4 text-center">
+                <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x" style="color: #D65B12"></i>
+                    <i class="fa fa-child fa-stack-1x" style="color: #ffffff"></i>
+                </span>
+                <h4>Lots of fun</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+<! -- FAQ Section -->
+<section class="triangle" id="faq-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>FAQ</h2>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <h4>Do I need to have a team? <i class="fa fa-chevron-down hidden-md-up arrow-animate"></i></h4>
+                <p>No. You are more than welcome to make a team before the hackathon, but loads of people come without a team. We will help everyone find a team Friday night. We recommend groups of 4-5 persons, but anything is allowed.</p>
+            </div>
+            <div class="col-md-4">
+                <h4>I cannot code. Can I attend anyway? <i class="fa fa-chevron-down hidden-md-up arrow-animate"></i></h4>
+                <p>Sure, you should definitely attend! Whether you have written lots of code or just have a creative soul, this hackathon needs you! In true hackathon spirit all students are very friendly and willing to help each other out.</p>
+            </div>
+            <div class="col-md-4">
+                <h4>Seriously, is it for free?! <i class="fa fa-chevron-down hidden-md-up arrow-animate"></i></h4>
+                <p>Yes, we’re not kidding you. Thanks to our sponsors we will provide free food, swag, snacks, drinks and a place for you to sleep at the hackathon. Plus, there will be mentors, talks and judges only for the sake of YOU.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <h4>Can I attend? <i class="fa fa-chevron-down hidden-md-up arrow-animate"></i></h4>
+                <p>You might think that a hackathon is for programmers only, but that’s not true. Technology and code is one thing – creative minds, bright insights and strategic eyes are another. So, as long as you are a student above 18 years old, you are more than welcome – no matter what university or study program you attend. Actually, we believe that the more different people we are, the better.</p>
+            </div>
+            <div class="col-md-4">
+                <h4>When is it? <i class="fa fa-chevron-down hidden-md-up arrow-animate"></i></h4>
+                <p>AUHack will start in the evening of Friday at 18.30 and end Sunday at 16.00. All work eligible for prizes must be worked on and completed during this period of time and can't be prepared from home. Throughout the hackathon inspiring events, talks and mentoring sessions will be hosted. For a more detailed schedule see below.</p>
+            </div>
+            <div class="col-md-4">
+                <h4>What do I need to bring? <i class="fa fa-chevron-down hidden-md-up arrow-animate"></i></h4>
+                <p>Need to have: Laptop, cellphone and chargers. <br>
+                    Nice to have: A sleeping bag, pillow, toiletries, clothes and a well-rested and open mind. If you want to hack on hardware, you might need to bring it yourself.
+                    What you won't need to bring is a pre-determined team, an idea for a hack, nor food and drinks. Also, there is absolutely no reason to bring bad mood.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <h4>Can I build on my hack before the event? <i class="fa fa-chevron-down hidden-md-up arrow-animate"></i></h4>
+                <p>No. That's not fair. You can come up with ideas, but not build them. You are of course allowed to use libraries, frameworks and templates for your hacks.</p>
+            </div>
+            <div class="col-md-4">
+                <h4>What can I win? <i class="fa fa-chevron-down hidden-md-up arrow-animate"></i></h4>
+                <p>You have the fantastic opportunity to learn new stuff, try out your skills and make new friends. Isn't that just great? Everyone will be a winner!... Okay, we will also have some awesome prices.</p>
+            </div>
+            <div class="col-md-4">
+                <h4>Can I sleep at the AUHack venue? <i class="fa fa-chevron-down hidden-md-up arrow-animate"></i></h4>
+                <p>There will be rooms to sleep in. You will have to bring your own bedroll, sleeping bag and pillows though.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <h4>How do I get there? <i class="fa fa-chevron-down hidden-md-up arrow-animate"></i></h4>
+                <p>Please take a look at <a href="travel.html">auhack.org/travel</a>. We have written down some options for you.
+                    <br>The address is: <br><a target="_blank" href="https://goo.gl/maps/UMjBPRkJ5u62">Finlandsgade 21, 8200 Aarhus N</a></p>
+                <!--<p>After your registration is confirmed, we will share detailed description on precisely where to go and how to get there easiest.
+                    <br>The address is: <br><a target="_blank" href="https://goo.gl/maps/UMjBPRkJ5u62">Finlandsgade 21, 8200 Aarhus N</a></p>-->
+            </div>
+            <div class="col-md-4">
+                <h4>How can I apply? <i class="fa fa-chevron-down hidden-md-up arrow-animate"></i></h4>
+                <p>You must fill out the application form. After completing the form, the AUHack team will send you an e-mail confirmation.</p>
+            </div>
+            <div class="col-md-4">
+                <h4>What if this FAQ didn't answer my questions? <i class="fa fa-chevron-down hidden-md-up arrow-animate"></i></h4>
+                <p>Send an email to:<br> <a href="mailto:contact@auhack.org?subject=AUHack: question">contact@auhack.org</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<! -- Schedule Section -->
+<section class="triangle" id="schedule-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>Schedule</h2>
+                <hr>
+                <p>
+                    The schedule will continuously be updated until we get closer to the event.
+                    But it will contain lots of time for hacking, talks, mini-events and much more!
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <h3>Friday</h3>
+                <table class="table">
+                    <thead><tr>
+                        <th class="col-xs-3">Time</th>
+                        <th class="col-xs-4">Event</th>
+                        <th class="col-xs-5">Location</th>
+                    </tr></thead>
+                    <tbody>
+                    <tr>
+                        <td>17:00 - 18:30</td>
+                        <td>Registration</td>
+                        <td>Information desk</td>
+                    </tr>
+                    <tr>
+                        <td>17:30 - 18:30</td>
+                        <td>Dinner</td>
+                        <td>Food area</td>
+                    </tr>
+                    <tr>
+                        <td>18:30 - 19:15</td>
+                        <td>Opening Ceremony</td>
+                        <td>Peter Bøgh Auditorium</td>
+                    </tr>
+                    <tr>
+                        <td>19.30 - 20:30</td>
+                        <td>Team Building + Ideation</td>
+                        <td>Peter Bøgh Auditorium</td>
+                    </tr>
+                    <tr>
+                        <td>20:30</td>
+                        <td>Hacking begins!</td>
+                        <td>Everywhere</td>
+                    </tr>
+                    <tr>
+                        <td>01:00 - 02:00</td>
+                        <td>Event</td>
+                        <td>Secret</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <h3>Saturday</h3>
+                <table class="table">
+                    <thead><tr>
+                        <th class="col-xs-3">Time</th>
+                        <th class="col-xs-4">Event</th>
+                        <th class="col-xs-5">Location</th>
+                    </tr></thead>
+                    <tbody>
+                    <tr>
+                        <td>08:00 - 09:00</td>
+                        <td>Breakfast</td>
+                        <td>Food area</td>
+                    </tr>
+                    <tr>
+                        <td>12:00 - 12:45</td>
+                        <td>Lunch</td>
+                        <td>Food area</td>
+                    </tr>
+                    <tr>
+                        <td>15:00 - 15:45</td>
+                        <td>Snack + Workshop</td>
+                        <td>Workshop room</td>
+                    </tr>
+                    <tr>
+                        <td>18:00 - 18:45</td>
+                        <td>Uber Talk</td>
+                        <td>Peter Bøgh Auditorium</td>
+                    </tr>
+                    <tr>
+                        <td>18:45 - 19:45</td>
+                        <td>Dinner</td>
+                        <td>Food area</td>
+                    </tr>
+                    <tr>
+                        <td>22:00 - 23:00</td>
+                        <td>Event</td>
+                        <td>Secret</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <h3>Sunday</h3>
+                <table class="table">
+                    <thead><tr>
+                        <th class="col-xs-3">Time</th>
+                        <th class="col-xs-4">Event</th>
+                        <th class="col-xs-5">Location</th>
+                    </tr></thead>
+                    <tbody>
+                    <tr>
+                        <td>08:00 - 09:00</td>
+                        <td>Breakfast</td>
+                        <td>Food area</td>
+                    </tr>
+                    <tr>
+                        <td>12:00</td>
+                        <td>Hacking ends</td>
+                        <td>Everywhere</td>
+                    </tr>
+                    <tr>
+                        <td>12:15 - 13:00</td>
+                        <td>One Minute Madness</td>
+                        <td>Peter Bøgh Auditorium</td>
+                    </tr>
+                    <tr>
+                        <td>13:00 - 15:00</td>
+                        <td>Lunch + Expo</td>
+                        <td>At your tables</td>
+                    </tr>
+                    <tr>
+                        <td>15:00 - 16:00</td>
+                        <td>Closing Ceremony</td>
+                        <td>Peter Bøgh Auditorium</td>
+                    </tr>
+                    <tr>
+                        <td>16:00</td>
+                        <td>Goodbye</td>
+                        <td></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+
+<! -- Sponsors Section -->
+<section class="triangle" id="sponsors-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>Sponsors</h2>
+                <hr>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <h3>Partners</h3>
+                <hr>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <h3>New sponsor?</h3>
+                <p>Interested in becoming a sponsor? Email us at <a href="mailto:sponsor@auhack.org?subject=AUHack sponsor">sponsor@auhack.org</a> or <a href="sponsors.html"> Click here to see the sponsor page!</a></p>
+            </div>
+        </div>
+    </div>
+
+
+</section>
 
 
 <!-- Footer Section -->

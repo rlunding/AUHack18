@@ -1,0 +1,160 @@
+hr {
+    background-color: #ffffff;
+    margin-bottom: 50px;
+}
+
+/*
+ -------------- Logo SECTION --------------
+ */
+
+#logo-section {
+    background: url("../img/WebBanner.jpg") no-repeat center #D65B12;
+    background-size: cover;
+    /*background-color: #D65B12;*/
+    height: 100vh;
+    color: #ffffff;
+}
+
+#logo-section h1 {
+    font-size: 10vh;/*6em;*/
+}
+
+#logo-section p {
+    font-size: 5vh;/*2em;*/
+}
+
+#logo-section .logo-section-top-margin {
+    height: 50vh;
+}
+
+#logo-section .btn-lg {
+    font-size: 3vh;
+}
+
+
+/*
+ -------------- Teaser SECTION --------------
+ */
+
+#teaser-section {
+    background-color: #ffffff;
+    padding-bottom: 8em;
+}
+
+#teaser-section:before {
+    top: -4em;
+    height: 4em;
+    background-image: url("../img/figures/white_bottom_right_triangle.svg");
+}
+
+#teaser-section hr {
+    border-top: 1px solid #000000;
+}
+
+/*
+ -------------- FAQ SECTION --------------
+ */
+
+#faq-section {
+    background-color: #D65B12;
+    color: #ffffff;
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+#faq-section:before {
+    top: -4em;
+    height: 4em;
+    background-image: url("../img/figures/orange_bottom_left_triangle.svg");
+}
+
+#faq-section h2 {
+    text-align: center;
+}
+
+#faq-section a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+
+@media (max-width: 767px) {
+    #faq-section h4 {
+        cursor: pointer;
+    }
+
+    #logo-section #logo-section-top-margin {
+        height: 30vh;
+    }
+}
+
+#faq-section .arrow-animate {
+    -moz-transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+#faq-section .arrow-animate.down{
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+/*
+ -------------- SPONSORS SECTION --------------
+ */
+
+#schedule-section {
+    background-color: #364759;
+    color: #ffffff;
+    text-align: center;
+}
+
+#schedule-section:before {
+    top: -4em;
+    height: 4em;
+    background-image: url("../img/figures/gray_bottom_right_triangle.svg");
+}
+
+#schedule-section:after {
+    bottom: -4em;
+    height: 4em;
+    background-image: url("../img/figures/gray_top_left_triangle.svg");
+}
+
+#schedule-section .table {
+    text-align: left;
+}
+
+/*
+ -------------- SPONSORS SECTION --------------
+ */
+#sponsors-section {
+    padding-top: 75px;
+    padding-bottom: 50px;
+    color: #D65B12;
+    text-align: center;
+}
+
+#sponsors-section a {
+    color: #D65B12;
+    text-decoration: underline;
+}
+
+#sponsors-section img {
+    max-height: 200px;
+    max-width: 80%;
+    margin: 25px 1px;
+}
+
+#sponsors-section hr {
+    border-top: 1px solid #D65B12;
+    margin-bottom: 15px;
+}
+
+#sponsors-section hr#sponsor-category  {
+    border-top: 1px solid rgba(214, 91, 18, 0.1);
+    margin: 0;
+}
