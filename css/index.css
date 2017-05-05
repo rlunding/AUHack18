@@ -31,6 +31,11 @@ hr {
     font-size: 3vh;
 }
 
+
+/*
+-------------- SIGN UP SECTION --------------
+ */
+
 input.mce_inline_error {
     border-color: #D65B12 !important;
 }
@@ -46,6 +51,24 @@ div.mce_inline_error {
 #mce-success-response a, #mce-error-response a {
     color: #fff;
     text-decoration: underline;
+}
+
+email-.sign-up-form {
+    text-align: center;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+#sign-up-section {
+    color: #ffffff;
+    background-color: #D65B12;
+    padding-bottom: 8em;
+}
+
+#sign-up-section:before {
+    top: -4em;
+    height: 4em;
+    background-image: url("../img/figures/orange_bottom_right_triangle.svg");
 }
 
 /*

@@ -128,8 +128,13 @@ footer a {
     color: #ffffff;
 }
 
+footer a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
 footer .fa:hover {
-    color: #D65B12;
+    transform: scale(1.2);
 }
 
 footer hr {
