@@ -19,7 +19,11 @@ jQuery(document).ready(function($) {
         $('html, body').stop().animate({
             'scrollTop': $target.offset().top - 50 // - 50 is some random offset
         }, 800, 'swing', function () {
-            window.location.hash = target;
+            if(history.pushState){
+                history.pushState(null, null, target);
+            }else{
+                window.location.hash = target;
+            }
         });
     });
 
