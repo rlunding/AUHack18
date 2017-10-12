@@ -90,6 +90,10 @@ img {
     font-size: 30px;
 }
 
+.navbutton{
+    margin-right: 10px;
+}
+
 @media (max-width: 767px) {
     .fixed-top {
         min-height: 0;
