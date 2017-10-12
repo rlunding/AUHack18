@@ -20,7 +20,7 @@ jQuery(document).ready(function($) {
             'scrollTop': $target.offset().top - 50 // - 50 is some random offset
         }, 800, 'swing', function () {
             if(history.pushState){
-                history.pushState(null, null, target);
+                history.pushState(null, null, target); // adds hash symbol without jumping to it
             }else{
                 window.location.hash = target;
             }

@@ -24,7 +24,7 @@ jQuery(document).ready(function($) {
 
     function checkWidth() {
         var windowSize = $(window).width();
-        if (windowSize < 768) {
+        //if (windowSize < 768) {
             smallWindow = true;
             $("#faq-section h4").each(function () {
                 var element = $(this).next();
@@ -37,14 +37,14 @@ jQuery(document).ready(function($) {
                 }
                 element.removeClass('faq-item-selected');
             });
-        } else {
+        /*} else {
             $("#faq-section p").slideDown(0);
             smallWindow = false;
-        }
+        }*/
     }
 
     $("#faq-section h4").click(function () {
-        if (smallWindow) {
+        //if (smallWindow) {
             var element = $(this).next();
             var angle = $(this).find('i');
             if (element.is(":visible")) {
@@ -57,7 +57,7 @@ jQuery(document).ready(function($) {
                 element.addClass("faq-item-selected");
                 angle.toggleClass('down');
             }
-        }
+        //}
 
     });
 
