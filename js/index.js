@@ -19,32 +19,24 @@ jQuery(document).ready(function($) {
     });
 
     /*----------------------------------------------------*/
-    /*	Check if FAQ should be collapsed
+    /*	Handle FAQ Collapsing
      ------------------------------------------------------*/
 
-    function checkWidth() {
-        var windowSize = $(window).width();
-        //if (windowSize < 768) {
-            smallWindow = true;
-            $("#faq-section h4").each(function () {
-                var element = $(this).next();
-                var angle = $(this).find('i');
-                if (element.is(":visible")) {
-                    element.slideUp(500);
-                    if (!angle.hasClass('down')) {
-                        angle.toggleClass('down');
-                    }
+    function setupFAQ() {
+        $("#faq-section h4").each(function () {
+            var element = $(this).next();
+            var angle = $(this).find('i');
+            if (element.is(":visible")) {
+                element.slideUp(500);
+                if (!angle.hasClass('down')) {
+                    angle.toggleClass('down');
                 }
-                element.removeClass('faq-item-selected');
-            });
-        /*} else {
-            $("#faq-section p").slideDown(0);
-            smallWindow = false;
-        }*/
+            }
+            element.removeClass('faq-item-selected');
+        });
     }
 
     $("#faq-section h4").click(function () {
-        //if (smallWindow) {
             var element = $(this).next();
             var angle = $(this).find('i');
             if (element.is(":visible")) {
@@ -57,10 +49,8 @@ jQuery(document).ready(function($) {
                 element.addClass("faq-item-selected");
                 angle.toggleClass('down');
             }
-        //}
 
     });
 
-    checkWidth();
-    $(window).resize(checkWidth());
+    setupFAQ();
 });
