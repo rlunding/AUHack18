@@ -117,6 +117,10 @@ email-.sign-up-form {
     text-decoration: underline;
 }
 
+#faq-section h4{
+    cursor: pointer;
+}
+
 #faq-section a {
     color: #ffffff;
     text-decoration: underline;
