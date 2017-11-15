@@ -113,8 +113,9 @@ email-.sign-up-form {
 
 #faq-section h3 {
     font-size: 2em;
-    text-align: center;
-    text-decoration: underline;
+    text-align: left;
+    /*text-decoration: underline;*/
+    line-height: 50px;
 }
 
 #faq-section h4{
