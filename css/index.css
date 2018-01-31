@@ -213,3 +213,9 @@ email-.sign-up-form {
   border-top: 1px solid rgba(214, 91, 18, 0.1);
   margin: 0;
 }
+
+.sponsor-tile {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
