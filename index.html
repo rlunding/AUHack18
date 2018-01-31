@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="description" content="AUHack is a hackathon at Aarhus University. From April 13th to 15th, we give you the opportunity to come create, innovate and hack on crazy ideas.">
     <meta name="Author" content="AUHack">
-    <link type="text/plain" rel="author" href="humans.txt"/>
+    <link type="text/plain" rel="author" href="humans.txt" />
 
     <!-- Facebook tags -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="AUHack - hackathon at Aarhus University's campus Katrinebjerg"/>
+    <meta property="og:title" content="AUHack - hackathon at Aarhus University's campus Katrinebjerg" />
     <meta property="og:url" content="https://auhack.org">
     <meta property="og:description" content="AUHack is a hackathon at Aarhus University. From April 13th to 15th, we give you the opportunity to come create, innovate and hack on crazy ideas.">
-    <meta property="og:image" content="https://auhack.org/img/AUHack_logo.jpg"/>
+    <meta property="og:image" content="https://auhack.org/img/AUHack_logo.jpg" />
 
     <!-- Twitter tags -->
     <meta name="twitter:card" content="summary">
@@ -34,7 +35,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
@@ -48,269 +49,353 @@
 
     <!-- Core CSS -->
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet"> <!-- http://fortawesome.github.io/Font-Awesome/icons/ -->
+    <link href="css/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- http://fortawesome.github.io/Font-Awesome/icons/ -->
     <link href="css/default.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/index.css" rel="stylesheet">
 </head>
+
 <body>
 
-<!-- NAVBAR -->
-<nav class="navbar navbar-toggleable-sm navbar-light bg-faded fixed-top" role="navigation" id="nav-wrap">
-    
-    <button class="navbutton navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="container">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-toggleable-sm navbar-light bg-faded fixed-top" role="navigation" id="nav-wrap">
 
-        <a class="navbar-brand" href="index.html"><img class="hidden-sm-down" src="img/AUHack_logo.png" alt="AUHack logo"><span class="hidden-md-up">AUHack 2018</span> </a>
+        <button class="navbutton navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container">
 
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="smoothscroll nav-link" href="#logo-section">AUHack</a>
-                </li>
-                <li class="nav-item">
-                    <a class="smoothscroll nav-link" href="#faq-section">FAQ</a>
-                </li>
-                <li class="nav-item">
-                    <a class="smoothscroll nav-link" href="#schedule-section">Schedule</a>
-                </li>
-                <li class="nav-item">
-                    <a class="smoothscroll nav-link" href="#sponsors-section">Sponsors</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="http://register.auhack.org">Sign Up</a>
-                </li>
-            </ul>
+            <a class="navbar-brand" href="index.html">
+                <img class="hidden-sm-down" src="img/AUHack_logo.png" alt="AUHack logo">
+                <span class="hidden-md-up">AUHack 2018</span>
+            </a>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="smoothscroll nav-link" href="#logo-section">AUHack</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="smoothscroll nav-link" href="#faq-section">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="smoothscroll nav-link" href="#schedule-section">Schedule</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="smoothscroll nav-link" href="#sponsors-section">Sponsors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://register.auhack.org">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+
+            <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000"
+                href="https://mlh.io/seasons/eu-2018/events?utm_source=eu-2018&utm_medium=TrustBadge&utm_campaign=eu-2018&utm_content=white"
+                target="_blank">
+                <img src="https://s3.amazonaws.com/logged-assets/trust-badge/2018/white.svg" alt="Major League Hacking 2018 Hackathon Season"
+                    style="width:100%">
+            </a>
         </div>
+    </nav>
 
-        <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/eu-2018/events?utm_source=eu-2018&utm_medium=TrustBadge&utm_campaign=eu-2018&utm_content=white" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2018/white.svg" alt="Major League Hacking 2018 Hackathon Season" style="width:100%"></a>    </div>
-</nav>
+    <!-- HEADER -->
+    <header id="logo-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="logo-section-top-margin"></div>
+                    <h1>AUHack 2018</h1>
+                    <p>April 13th - 15th</p>
+                </div>
+            </div>
+        </div>
+    </header>
 
-<!-- HEADER -->
-<header id="logo-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="logo-section-top-margin"></div>
-                <h1>AUHack 2018</h1>
-                <p>April 13th - 15th</p>
+
+    <div class="triangle" id="sign-up-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8 text-center">
+                    <h5>Sign ups are now open for this years AUHack!
+                        <br/> Be sure to sign up soon if you want to be sure to have a spot!</h5>
+                    <a href="http://register.auhack.org" class="btn btn-lg btn-secondary" role="button">Register your spot now!</a>
+                </div>
             </div>
         </div>
     </div>
-</header>
 
-
-<div class="triangle" id="sign-up-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-2"></div>
-            <div class="col-sm-8 text-center">
-                <h5>Sign ups are now open for this years AUHack! <br/> Be sure to sign up soon if you want to be sure to have a spot!</h5>
-                <a href="http://register.auhack.org" class="btn btn-lg btn-secondary" role="button">Register your spot now!</a>
+    <!-- Teaser Section -->
+    <div class="triangle" id="teaser-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 style="text-align: right">What is AUHack?</h2>
+                    <hr>
+                    <p>AUHack is Denmarks’s largest hackathon for students. Over a 36-hour period from April 13th to 15th, students
+                        interested in IT will meet, form groups and work intensively to create awesome prototypes and concepts.
+                        Whether you like to concept develop, design or code, if you’re into IT – this is for you.</p>
+                    <p>Ideate, build, play, hack, share, learn and have fun! The goal for the weekend is to come up with new
+                        ideas, play with technology and make cool stuff. It is not about creating finished products, but
+                        an opportunity to share your ideas with different people, build inspiring hacks, learn from our mentors
+                        and just have fun.</p>
+                    <p>Our goal with the hackathon is to bring creative minds and different skill sets together. We want to
+                        see you form new ideas and to see what having fun and playing with technology results in through
+                        your presentations and demos at the end of the hackathon. So if you feel up for the challenge and
+                        are interested in IT, bring your skill set to the event and put it in play working on something cool.</p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x" style="color: #D65B12"></i>
+                        <i class="fa fa-cutlery fa-stack-1x" style="color: #ffffff"></i>
+                    </span>
+                    <h4>Free food</h4>
+                </div>
+                <div class="col-md-4 text-center">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x" style="color: #D65B12"></i>
+                        <i class="fa fa-keyboard-o fa-stack-1x" style="color: #ffffff"></i>
+                    </span>
+                    <h4>36 hours of hacking</h4>
+                </div>
+                <div class="col-md-4 text-center">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x" style="color: #D65B12"></i>
+                        <i class="fa fa-child fa-stack-1x" style="color: #ffffff"></i>
+                    </span>
+                    <h4>Lots of fun</h4>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<!-- Teaser Section -->
-<div class="triangle" id="teaser-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <h2 style="text-align: right">What is AUHack?</h2>
-                <hr>
-                <p>AUHack is Denmarks’s largest hackathon for students. Over a 36-hour period from April 13th to 15th, students interested in IT will meet, form groups and work intensively to create awesome prototypes and concepts. Whether you like to concept develop, design or code, if you’re into IT – this is for you.</p>
-                <p>Ideate, build, play, hack, share, learn and have fun! The goal for the weekend is to come up with new ideas, play with technology and make cool stuff. It is not about creating finished products, but an opportunity to share your ideas with different people, build inspiring hacks, learn from our mentors and just have fun.</p>
-                <p>Our goal with the hackathon is to bring creative minds and different skill sets together. We want to see you form new ideas and to see what having fun and playing with technology results in through your presentations and demos at the end of the hackathon. So if you feel up for the challenge and are interested in IT, bring your skill set to the event and put it in play working on something cool.</p>
+    <!-- FAQ Section -->
+    <section class="triangle" id="faq-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2>FAQ</h2>
+                    <hr>
+                </div>
             </div>
-        </div>
-        <br>
-        <div class="row">
-            <div class="col-md-4 text-center">
-                <span class="fa-stack fa-4x">
-                    <i class="fa fa-circle fa-stack-2x" style="color: #D65B12"></i>
-                    <i class="fa fa-cutlery fa-stack-1x" style="color: #ffffff"></i>
-                </span>
-                <h4>Free food</h4>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3>General</h3>
+                </div>
             </div>
-            <div class="col-md-4 text-center">
-                <span class="fa-stack fa-4x">
-                    <i class="fa fa-circle fa-stack-2x" style="color: #D65B12"></i>
-                    <i class="fa fa-keyboard-o fa-stack-1x" style="color: #ffffff"></i>
-                </span>
-                <h4>36 hours of hacking</h4>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4>I cannot code. Can I attend anyway?
+                        <i class="fa fa-chevron-down arrow-animate"></i>
+                    </h4>
+                    <p>Sure, you should definitely attend! Whether you have written lots of code or just have a creative soul,
+                        this hackathon needs you! In true hackathon spirit all students are very friendly and willing to
+                        help each other out.</p>
+                </div>
             </div>
-            <div class="col-md-4 text-center">
-                <span class="fa-stack fa-4x">
-                    <i class="fa fa-circle fa-stack-2x" style="color: #D65B12"></i>
-                    <i class="fa fa-child fa-stack-1x" style="color: #ffffff"></i>
-                </span>
-                <h4>Lots of fun</h4>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4>Seriously, is it free?!
+                        <i class="fa fa-chevron-down arrow-animate"></i>
+                    </h4>
+                    <p>Yes, we’re not kidding you. Thanks to our sponsors we will provide free food, swag, snacks, drinks and
+                        a place for you to sleep at the hackathon. Plus, there will be mentors, talks and judges only for
+                        the sake of YOU.</p>
+                </div>
             </div>
-        </div>
-    </div>
-</div>
-
-<!-- FAQ Section -->
-<section class="triangle" id="faq-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <h2>FAQ</h2>
-                <hr>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4>What can I win?
+                        <i class="fa fa-chevron-down arrow-animate"></i>
+                    </h4>
+                    <p>You have the fantastic opportunity to learn new stuff, try out your skills and make new friends. Isn't
+                        that just great? Everyone will be a winner!... Okay, we will also have some awesome prices.</p>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <h3>General</h3>
+            <div class="row">
+                <div class="col-sm-12">
+                    <br/>
+                    <h3>Hacking!</h3>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <h4>I cannot code. Can I attend anyway? <i class="fa fa-chevron-down arrow-animate"></i></h4>
-                <p>Sure, you should definitely attend! Whether you have written lots of code or just have a creative soul, this hackathon needs you! In true hackathon spirit all students are very friendly and willing to help each other out.</p>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4>Can I build on my hack before the event?
+                        <i class="fa fa-chevron-down arrow-animate"></i>
+                    </h4>
+                    <p>No. That's not fair. You can come up with ideas, but not build them. You are of course allowed to use
+                        libraries, frameworks and templates for your hacks.</p>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <h4>Seriously, is it free?! <i class="fa fa-chevron-down arrow-animate"></i></h4>
-                <p>Yes, we’re not kidding you. Thanks to our sponsors we will provide free food, swag, snacks, drinks and a place for you to sleep at the hackathon. Plus, there will be mentors, talks and judges only for the sake of YOU.</p>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4>What do people usually build?
+                        <i class="fa fa-chevron-down arrow-animate"></i>
+                    </h4>
+                    <p>AUHack has been home to a wide variety of projects, from amazing hardware projects to the coolest VR
+                        Games and the most useful services and apps. </p>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <h4>What can I win? <i class="fa fa-chevron-down arrow-animate"></i></h4>
-                <p>You have the fantastic opportunity to learn new stuff, try out your skills and make new friends. Isn't that just great? Everyone will be a winner!... Okay, we will also have some awesome prices.</p>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4>What hardware will be available to hack on?
+                        <i class="fa fa-chevron-down arrow-animate"></i>
+                    </h4>
+                    <p>We always have a wide spectrum of hardware available, provided by our sponsors and happily administered
+                        by our knowledgeable wizards. A detailed list will be available as we get closer to the event!</p>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <br/>
-                <h3>Hacking!</h3>
+            <div class="row">
+                <div class="col-sm-12">
+                    <br />
+                    <h3>Application</h3>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <h4>Can I build on my hack before the event? <i class="fa fa-chevron-down arrow-animate"></i></h4>
-                <p>No. That's not fair. You can come up with ideas, but not build them. You are of course allowed to use libraries, frameworks and templates for your hacks.</p>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4>Do I need to have a team?
+                        <i class="fa fa-chevron-down arrow-animate"></i>
+                    </h4>
+                    <p>No. You are more than welcome to make a team before the hackathon, but loads of people come without a
+                        team. We will help everyone find a team Friday night. We recommend groups of 4-5 persons, but anything
+                        is allowed.</p>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <h4>What do people usually build? <i class="fa fa-chevron-down arrow-animate"></i></h4>
-                <p>AUHack has been home to a wide variety of projects, from amazing hardware projects to the coolest VR Games and the most useful services and apps. </p>
-            </div>    
-        </div>
-        <div class="row">        
-            <div class="col-sm-12">
-                <h4>What hardware will be available to hack on? <i class="fa fa-chevron-down arrow-animate"></i></h4>
-                <p>We always have a wide spectrum of hardware available, provided by our sponsors and happily administered by our knowledgeable wizards. A detailed list will be available as we get closer to the event!</p>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4>How can I apply?
+                        <i class="fa fa-chevron-down arrow-animate"></i>
+                    </h4>
+                    <p>
+                        <a href="http://register.auhack.org">Right here!</a>
+                        Once you've filled out your application, we will accept it within a few days, and you'll have to fill out a confirmation
+                        form, so make sure to check your e-mail after applying!</p>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <br />
-                <h3>Application</h3>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4>Can I attend?
+                        <i class="fa fa-chevron-down arrow-animate"></i>
+                    </h4>
+                    <p>You might think that a hackathon is for programmers only, but that’s not true. Technology and code is
+                        one thing – creative minds, bright insights and strategic eyes are another. So, as long as you are
+                        a student above 18 years old, you are more than welcome – no matter what university or study program
+                        you attend. Actually, we believe that the more different people we are, the better.</p>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <h4>Do I need to have a team? <i class="fa fa-chevron-down arrow-animate"></i></h4>
-                <p>No. You are more than welcome to make a team before the hackathon, but loads of people come without a team. We will help everyone find a team Friday night. We recommend groups of 4-5 persons, but anything is allowed.</p>
+            <div class="row">
+                <div class="col-sm-12">
+                    <br/>
+                    <h3>Logistics</h3>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <h4>How can I apply? <i class="fa fa-chevron-down arrow-animate"></i></h4>
-                <p><a href="http://register.auhack.org">Right here!</a> 
-                    Once you've filled out your application, we will accept it within a few days, and you'll have to fill out a confirmation form, so make sure to check your e-mail after applying!</p>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4>What do I need to bring?
+                        <i class="fa fa-chevron-down arrow-animate"></i>
+                    </h4>
+                    <p>Laptop, cellphone and chargers aswell as a sleeping bag, pillow, toiletries, clothes and a well-rested
+                        and open mind. If you want to hack on hardware, you might need to bring it yourself. What you won't
+                        need to bring is a pre-determined team, an idea for a hack, nor food and drinks. Also, there is absolutely
+                        no reason to bring bad mood.</p>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <h4>Can I attend? <i class="fa fa-chevron-down arrow-animate"></i></h4>
-                <p>You might think that a hackathon is for programmers only, but that’s not true. Technology and code is one thing – creative minds, bright insights and strategic eyes are another. So, as long as you are a student above 18 years old, you are more than welcome – no matter what university or study program you attend. Actually, we believe that the more different people we are, the better.</p>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4>When is it?
+                        <i class="fa fa-chevron-down arrow-animate"></i>
+                    </h4>
+                    <p>AUHack will start in the evening of Friday at 18.30 and end Sunday at 16.00. All work eligible for prizes
+                        must be worked on and completed during this period of time and can't be prepared from home. Throughout
+                        the hackathon inspiring events, talks and mentoring sessions will be hosted. For a more detailed
+                        schedule see below.</p>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <br/>
-                <h3>Logistics</h3>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4>Can I sleep at the AUHack venue?
+                        <i class="fa fa-chevron-down arrow-animate"></i>
+                    </h4>
+                    <p>There will be rooms to sleep in. You will have to bring your own bedroll, sleeping bag and pillows though.</p>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <h4>What do I need to bring? <i class="fa fa-chevron-down arrow-animate"></i></h4>
-                <p>Laptop, cellphone and chargers aswell as a sleeping bag, pillow, toiletries, clothes and a well-rested and open mind. 
-                    If you want to hack on hardware, you might need to bring it yourself.
-                    What you won't need to bring is a pre-determined team, an idea for a hack, nor food and drinks. 
-                    Also, there is absolutely no reason to bring bad mood.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <h4>When is it? <i class="fa fa-chevron-down arrow-animate"></i></h4>
-                <p>AUHack will start in the evening of Friday at 18.30 and end Sunday at 16.00. All work eligible for prizes must be worked on and completed during this period of time and can't be prepared from home. Throughout the hackathon inspiring events, talks and mentoring sessions will be hosted. For a more detailed schedule see below.</p>
-            </div>    
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <h4>Can I sleep at the AUHack venue? <i class="fa fa-chevron-down arrow-animate"></i></h4>
-                <p>There will be rooms to sleep in. You will have to bring your own bedroll, sleeping bag and pillows though.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <h4>How do I get there? <i class="fa fa-chevron-down arrow-animate"></i></h4>
-                <p>Please take a look at <a href="travel.html">auhack.org/travel</a>. We have written down some options for you.
-                    <br>The address is: <br><a target="_blank" href="https://goo.gl/maps/UMjBPRkJ5u62">Finlandsgade 21, 8200 Aarhus N</a></p>
-                <!--<p>After your registration is confirmed, we will share detailed description on precisely where to go and how to get there easiest.
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4>How do I get there?
+                        <i class="fa fa-chevron-down arrow-animate"></i>
+                    </h4>
+                    <p>Please take a look at
+                        <a href="travel.html">auhack.org/travel</a>. We have written down some options for you.
+                        <br>The address is:
+                        <br>
+                        <a target="_blank" href="https://goo.gl/maps/UMjBPRkJ5u62">Finlandsgade 21, 8200 Aarhus N</a>
+                    </p>
+                    <!--<p>After your registration is confirmed, we will share detailed description on precisely where to go and how to get there easiest.
                     <br>The address is: <br><a target="_blank" href="https://goo.gl/maps/UMjBPRkJ5u62">Finlandsgade 21, 8200 Aarhus N</a></p>-->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4>Will there be parking available?
+                        <i class="fa fa-chevron-down arrow-animate"></i>
+                    </h4>
+                    <p>The streets around the venue should provide suitable parking for all participants. Additionally there
+                        is a parking lot near the venue.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <br />
+                    <h3>Help!</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4>What if this FAQ didn't answer my questions?
+                        <i class="fa fa-chevron-down arrow-animate"></i>
+                    </h4>
+                    <p>Send an email to:
+                        <br>
+                        <a href="mailto:contact@auhack.org?subject=AUHack: question">contact@auhack.org</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4>I don't want to hack I want to _______!
+                        <i class="fa fa-chevron-down arrow-animate"></i>
+                    </h4>
+                    <p>If you'd like to be a part of AUHack but don't want to hack, we also need spirited volunteers to help
+                        bring the event to life. Shoot us an e-mail at:
+                        <br>
+                        <a href="mailto:contact@auhack.org?subject=AUHack: question">contact@auhack.org</a>
+                    </p>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <h4>Will there be parking available? <i class="fa fa-chevron-down arrow-animate"></i></h4>
-                <p>The streets around the venue should provide suitable parking for all participants. Additionally there is a parking lot near the venue.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <br />
-                <h3>Help!</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <h4>What if this FAQ didn't answer my questions? <i class="fa fa-chevron-down arrow-animate"></i></h4>
-                <p>Send an email to:<br> <a href="mailto:contact@auhack.org?subject=AUHack: question">contact@auhack.org</a></p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <h4>I don't want to hack I want to _______! <i class="fa fa-chevron-down arrow-animate"></i></h4>
-                <p>If you'd like to be a part of AUHack but don't want to hack, we also need spirited volunteers to help bring the event to life. Shoot us an e-mail at: <br> <a href="mailto:contact@auhack.org?subject=AUHack: question">contact@auhack.org</a></p>
-            </div>
-        </div>
-    </div>
-</section>
+    </section>
 
-<!-- Schedule Section -->
-<section class="triangle" id="schedule-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <h2>Schedule</h2>
-                <hr>
-                <p>
-                    We're still working on making a schedule that's packed with hacking, learning and fun events for the best weekend of the year!
-                </p>
+    <!-- Schedule Section -->
+    <section class="triangle" id="schedule-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2>Schedule</h2>
+                    <hr>
+                    <p>
+                        We're still working on making a schedule that's packed with hacking, learning and fun events for the best weekend of the
+                        year!
+                    </p>
+                </div>
             </div>
-        </div>
-        <!-- Secret!
+            <!-- Secret!
         <div class="row">
             <div class="col-sm-12">
                 <h3>Friday</h3>
@@ -445,103 +530,207 @@
         </div>
 
     -->
-    </div>
-</section>
-
-<!-- Sponsors Section -->
-<section class="triangle" id="sponsors-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <h2>Sponsors</h2>
-
-            </div>
         </div>
-        <hr>
-        <div class="row">
-            <div class="col-sm-12">
-                <h3>Partners</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-2"></div>
-            <div class="col-4">
-                <div class="sponsor-tile">
-                    <a href="http://cs.au.dk" target="_blank"><img src="img/partners/AU_logo.png" alt="Partner Aarhus University"></a>
+    </section>
+
+    <!-- Sponsors Section -->
+    <section class="triangle" id="sponsors-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2>Sponsors</h2>
+
                 </div>
             </div>
-            <div class="col-4">
-                <div class="sponsor-tile">
-                    <a href="https://mlh.io" target="_blank"><img src="img/partners/mlh-logo-color.svg" alt="Partner Major League Hacking"></a>
+            <hr>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3>Partners</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-4">
+                    <div class="sponsor-tile">
+                        <a href="http://cs.au.dk" target="_blank">
+                            <img src="img/partners/AU_logo.png" alt="Partner Aarhus University">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="sponsor-tile">
+                        <a href="https://mlh.io" target="_blank">
+                            <img src="img/partners/mlh-logo-color.svg" alt="Partner Major League Hacking">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3>Diamond</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="sponsor-tile">
+                        <a href="http://dk.grundfos.com/" target="_blank">
+                            <img src="img/partners/grundfos.jpg" alt="Grundfos">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="sponsor-tile">
+                        <a href="http://www.danfoss.dk/" target="_blank">
+                            <img src="img/partners/danfoss.png" alt="Danfoss">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-3"></div>
+                <div class="col-6">
+                    <div class="sponsor-tile">
+                        <a href="http://www.google.dk/" target="_blank">
+                            <img src="img/partners/google.svg" alt="Google">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-3"></div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3>Gold</h3>
+                </div>
+            </div>
+            <div id="gold-sponsors" class="row">
+                <div class="col-4">
+                </div>
+                <div class="col-4">
+                    <div class="sponsor-tile">
+                        <a href="http://www.jysk.dk/" target="_blank">
+                            <img src="img/partners/jysk.svg" alt="Jysk">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4">
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3>Silver</h3>
+                </div>
+            </div>
+            <div id="silver-sponsors" class="row">
+                <div class="col"></div>
+                <div class="col-3">
+                    <div class="sponsor-tile">
+                        <a href="http://www.capnova.dk/" target="_blank">
+                            <img src="img/partners/capnova.jpg" alt="Capnova">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="sponsor-tile">
+                        <a href="http://www.trelleborg.com/en" target="_blank">
+                            <img src="img/partners/trelleborg.jpg" alt="Trelleborg">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="sponsor-tile">
+                        <a href="https://it-minds.dk/dk/forside" target="_blank">
+                            <img src="img/partners/itminds.png" alt="IT-Minds">
+                        </a>
+                    </div>
+                </div>
+                <div class="col"></div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4>New sponsor?</h4>
+                    <p>
+                        If you are interested in becoming a sponsor:
+                        <br> Email us at
+                        <a href="mailto:sponsor@auhack.org?subject=AUHack sponsor">sponsor@auhack.org</a> or
+                        <a href="sponsor.html"> Click here to see the sponsor page!</a>
+                    </p>
                 </div>
             </div>
         </div>
-        <hr>
-        <div class="row">
-            <div class="col-sm-12">
-                <h4>New sponsor?</h4>
-                <p>
-                    If you are interested in becoming a sponsor:<br>
-                    Email us at <a href="mailto:sponsor@auhack.org?subject=AUHack sponsor">sponsor@auhack.org</a> or <a href="sponsor.html"> Click here to see the sponsor page!</a></p>
-            </div>
-        </div>
-    </div>
-</section>
+    </section>
 
 
-<!-- Footer Section -->
-<footer class="triangle">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <h3>Contact</h3>
+    <!-- Footer Section -->
+    <footer class="triangle">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3>Contact</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <a href="mailto:contact@auhack.org">
+                        <i class="fa fa-envelope fa-4x"></i>
+                    </a>
+                    <a href="https://www.facebook.com/AUHack" target="_blank" style="margin: 0 30px;">
+                        <i class="fa fa-facebook-square fa-4x"></i>
+                    </a>
+                    <a href="https://www.twitter.com/AUHackAarhus" target="_blank">
+                        <i class="fa fa-twitter-square fa-4x"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-sm-12">
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <p>AUHack &#169; 2018
+                        <span class="hidden-sm-down">|</span>
+                        <br class="hidden-md-up">
+                        <a href="http://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank">Code of Conduct</a>
+                        <span class="hidden-sm-down">|</span>
+                        <br class="hidden-md-up">
+                        <a href="mailto:contact@auhack.org?subject=AUHack">contact@auhack.org</a>
+                    </p>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <a href="mailto:contact@auhack.org" ><i class="fa fa-envelope fa-4x"></i></a>
-                <a href="https://www.facebook.com/AUHack" target="_blank" style="margin: 0 30px;"><i class="fa fa-facebook-square fa-4x"></i></a>
-                <a href="https://www.twitter.com/AUHackAarhus" target="_blank"><i class="fa fa-twitter-square fa-4x"></i></a>
-            </div>
-        </div>
-        <div class="row ">
-            <div class="col-sm-12">
-                <hr>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <p>AUHack &#169; 2018 <span class="hidden-sm-down">|</span><br class="hidden-md-up"> <a href="http://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank">Code of Conduct</a> <span class="hidden-sm-down">|</span><br class="hidden-md-up"> <a href="mailto:contact@auhack.org?subject=AUHack">contact@auhack.org</a></p>
-            </div>
-        </div>
-    </div>
-</footer>
+    </footer>
 
-<!-- core JavaScript
+    <!-- core JavaScript
     ================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-<script>window.jQuery || document.write('<script src="js/jquery-3.2.1.min.js"><\/script>')</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script>window.Tether || document.write('<script src="/js/tether-1.4.0.min.js"><\/script>')</script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-<script>$.fn.modal || document.write('<script src="/js/bootstrap.min.js"><\/script>')</script>
-<script src="js/jquery.waypoints.min.js"></script>
-<script src="js/default.js"></script>
-<script src="js/index.js"></script>
-<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
-<script type="text/javascript">
-    function showMailingPopUp() {
-        require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"4548bd6155e350fd20b06bd6b","lid":"a15516ca96"}) });
-        document.cookie = "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
-    }
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-3.2.1.min.js"><\/script>')</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script>window.Tether || document.write('<script src="/js/tether-1.4.0.min.js"><\/script>')</script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+    <script>$.fn.modal || document.write('<script src="/js/bootstrap.min.js"><\/script>')</script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/default.js"></script>
+    <script src="js/index.js"></script>
+    <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+    <script type="text/javascript">
+        function showMailingPopUp() {
+            require(["mojo/signup-forms/Loader"], function (L) { L.start({ "baseUrl": "mc.us12.list-manage.com", "uuid": "4548bd6155e350fd20b06bd6b", "lid": "a15516ca96" }) });
+            document.cookie = "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+        }
 
-    $(function() {
-        $(".open-popup").on('click', function() {
-            showMailingPopUp();
+        $(function () {
+            $(".open-popup").on('click', function () {
+                showMailingPopUp();
+            });
         });
-    });
-</script>
+    </script>
 </body>
-</html>
 
+</html>
