@@ -194,6 +194,10 @@ email-.sign-up-form {
   text-decoration: underline;
 }
 
+#sponsors-section h4 {
+  font-size: 2em;
+}
+
 #sponsors-section img {
   max-height: 200px;
   max-width: 80%;
