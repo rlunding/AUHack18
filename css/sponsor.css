@@ -76,3 +76,7 @@
 .faq-section .card a {
     color: #364759;
 }
+
+.faq-section .card-header {
+    cursor: pointer;
+}
