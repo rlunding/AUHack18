@@ -201,7 +201,7 @@ email-.sign-up-form {
 #sponsors-section img {
   max-height: 200px;
   max-width: 80%;
-  min-width: 100px;
+  width: auto;
   margin: 25px 1px;
 }
 
