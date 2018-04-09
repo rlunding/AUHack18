@@ -108,6 +108,10 @@ h6 {
     border-top: 3px solid #8F0808;
 }
 
+.btn {
+    margin: 3px;
+}
+
 .back-to-top {
     cursor: pointer;
     position: fixed;
