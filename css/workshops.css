@@ -1,0 +1,124 @@
+.card-img-top {
+    /*width: 80%;
+    margin: 10px 0;*/
+    width: 100%;
+    align-self: center;
+}
+
+.card-body {
+    padding: 10px 20px;
+}
+
+h6 {
+    margin-top: .3rem;
+    margin-bottom: 0;
+}
+
+.text-muted {
+    font-size: 0.8rem;
+}
+
+.ribbon {
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+    width: 75px; height: 75px;
+    text-align: right;
+}
+
+.ribbon-right {
+    right: -5px; top: -5px;
+}
+
+.ribbon-left {
+    left: -5px; top: -5px;
+}
+
+
+.ribbon span {
+    font-size: 10px;
+    font-weight: bold;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 20px;
+    width: 100px;
+    display: block;
+    box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+    position: absolute;
+
+}
+
+.ribbon-right span {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    top: 19px; right: -21px;
+}
+
+.ribbon-left span {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    top: 19px; left: -21px;
+}
+
+.ribbon-green span {
+    background: #79A70A;
+    background: linear-gradient(#9BC90D 0%, #79A70A 100%);
+}
+
+.ribbon-red span {
+    background: #79A70A;
+    background: linear-gradient(#F70505 0%, #8F0808 100%)
+}
+
+
+.ribbon span::before {
+    content: "";
+    position: absolute; left: 0; top: 100%;
+    z-index: -1;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+}
+
+.ribbon-green span::before {
+    border-left: 3px solid #79A70A;
+    border-top: 3px solid #79A70A;
+}
+
+.ribbon-red span::before {
+    border-left: 3px solid #8F0808;
+    border-top: 3px solid #8F0808;
+}
+
+.ribbon span::after {
+    content: "";
+    position: absolute; right: 0; top: 100%;
+    z-index: -1;
+    border-left: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+}
+
+.ribbon-green span::after {
+    border-right: 3px solid #79A70A;
+    border-top: 3px solid #79A70A;
+}
+
+.ribbon-red span::after {
+    border-right: 3px solid #8F0808;
+    border-top: 3px solid #8F0808;
+}
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+    z-index: 100;
+    background: #364759;
+    color: white;
+}
+
+.back-to-top:hover {
+    color: whitesmoke;
+}

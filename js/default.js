@@ -17,7 +17,7 @@ jQuery(document).ready(function($) {
         var target = this.hash, $target = $(target);
 
         $('html, body').stop().animate({
-            'scrollTop': $target.offset().top - 50 // - 50 is some random offset
+            'scrollTop': $target.offset().top - 100 // - 50 is some random offset
         }, 800, 'swing', function () {
             if(history.pushState){
                 history.pushState(null, null, target); // adds hash symbol without jumping to it
