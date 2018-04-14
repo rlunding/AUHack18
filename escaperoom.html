@@ -132,13 +132,21 @@
 
                     <h4>How do we sign up?</h4>
                     <p>
-                        ?
+                        Go to the dinning area, eat some softice, and get a number in the queue.
                     </p>
                     <h4>How many people can be on a team?</h4>
                     <p>
                         Up to 4 persons pr. team.
                     </p>
 
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4>Next up</h4>
+                    <hr>
+                    <div id="waiting_div"></div>
+                    <i>Expected waiting time:<br> 3 min pr. team in front of you.</i>
                 </div>
             </div>
         </div>
@@ -162,16 +170,6 @@
 
             <div class="row">
                 <div class="col-sm-12">
-                    <h4>Next up</h4>
-                    <hr>
-                    <div id="waiting_div"></div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-12">
-                    <h4>Hall of Shame</h4>
-                    <hr>
                     <div id="hall_of_shame_div"></div>
                 </div>
             </div>
@@ -276,6 +274,12 @@
                         hall_of_shame_text += '<p>' + highScore[i][1] + '</p>';
                     }
                 }
+                if (high_score_text === "") {
+                    high_score_text = '<p>No teams have escaped yet</p>'
+                }
+                if (hall_of_shame_text !== "") {
+                    hall_of_shame_text = '<h4>Hall of Shame</h4><hr>' + hall_of_shame_text;
+                }
                 $('#high_score_div').html(high_score_text);
                 $('#hall_of_shame_div').html(hall_of_shame_text);
 
@@ -283,6 +287,9 @@
                 var waiting_text = "";
                 for (i = 0; i < waiting.length; i++) {
                     waiting_text += '<p>' + waiting[i][0] + ': ' + waiting[i][1] + '</p>';
+                }
+                if (waiting_text === "") {
+                    waiting_text = '<p>No teams waiting</p>'
                 }
                 $('#waiting_div').html(waiting_text);
 
