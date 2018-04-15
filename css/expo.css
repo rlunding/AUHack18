@@ -1,0 +1,88 @@
+.criteria-section {
+    background-color: #364759;
+    padding-bottom: 8em;
+}
+
+.criteria-section:before {
+    top: -4em;
+    height: 4em;
+    background-image: url("../img/figures/gray_bottom_right_triangle.svg");
+}
+
+.criteria-section h2 {
+    text-align: right;
+    color: #ffffff;
+}
+
+.criteria-section hr {
+    background-color: #ffffff;
+}
+
+.criteria-section h3 {
+    color: #ffffff;
+}
+
+.criteria-section h4 {
+    color: #ffffff;
+}
+
+.criteria-section p {
+    color: #FFFFFF;
+}
+
+
+
+/**
+**************
+ */
+
+
+.judge-section {
+    background-color: white;
+    padding-bottom: 8em;
+}
+
+.judge-section:before {
+    top: -4em;
+    height: 4em;
+    background-image: url("../img/figures/white_bottom_right_triangle.svg");
+}
+
+.judge-section .card-body {
+    padding: 10px 20px;
+    background-color: #D65B12;
+}
+
+.judge-section .card-img-top {
+    width: 100%;
+    align-self: center;
+}
+
+.judge-section .card {
+    margin-bottom: 20px;
+}
+
+
+/**
+**************
+ */
+
+.upload-section {
+    background-color: #D65B12;
+    padding-bottom: 8em;
+}
+
+.upload-section:before {
+    top: -4em;
+    height: 4em;
+    background-image: url("../img/figures/orange_bottom_right_triangle.svg");
+}
+
+.upload-section h2 {
+    text-align: right;
+    color: #ffffff;
+}
+
+.upload-section hr {
+    background-color: #ffffff;
+}
